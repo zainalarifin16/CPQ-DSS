@@ -51,6 +51,10 @@
     color: #ffffff;
 }
 
+.zp-dss-image-dashboard{
+    background-position-y: -80px!important;
+}
+
 .zp-dss-imagegsk{
     right: 10%;
     top: 35%;
@@ -534,6 +538,12 @@
 
 
 @media only screen and (min-width: 768px) {
+
+    .ui.text.container{
+        background-size: 140%!important;
+        background-position-y: -40px!important;
+    }
+
     .ui.secondary.pointing.menu .item{
         padding: 12px;
     }
@@ -549,12 +559,23 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    
+    .ui.text.container{
+        background-size: 100%!important;
+    }
+    
     .zp-dss-containermiddle{
         width: 900px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
+    
+    .ui.text.container{
+        background-size: 100%!important;
+        background-position-y: -70px!important;
+    }
+    
     .zp-dss-footer{
         padding-left: 70px;
         padding-right: 70px;
