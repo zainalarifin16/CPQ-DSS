@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>34A71E64-23EE-4287-8AA2-ABC0D180735A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M5.5,6 C5.29365626,6 5.09622626,5.921823 4.95322701,5.78329264 L0.211872644,1.19520253 C-0.0786775514,0.91425944 -0.0691948427,0.467256393 0.232924258,0.19707808 C0.534853704,-0.0731002331 1.01505807,-0.0644531153 1.30541862,0.216666449 L5.5,4.27569413 L9.69458138,0.216666449 C9.98475227,-0.0642766435 10.4649566,-0.0731002331 10.7670757,0.19707808 C11.0691948,0.467256393 11.0786776,0.91425944 10.7881274,1.19520253 L6.04677299,5.78329264 C5.90377374,5.921823 5.70634374,6 5.5,6" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DSS-Desktop---HD" transform="translate(-1146.000000, -38.000000)">
+            <g id="Colour" transform="translate(1146.000000, 38.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                <g id="colour-/-green---1" mask="url(#mask-2)" fill="#003948">
+                    <rect id="Rectangle" x="0" y="0" width="11" height="6"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
