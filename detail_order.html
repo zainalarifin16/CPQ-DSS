@@ -103,37 +103,75 @@
 
             <div class="ui text container zp-dss-image-dashboard" style="background: url('assets/images/desktop-hd-vieworder-header-img@3x.jpg')" >
                 
-                <h1 class="ui header-view-order">
-                    View Orders
+                <h1 class="ui header-backtoview">
+                    <a href="view_order.html" ><i class="arrow left icon"></i>Back to view orders</a>
+                </h1>
+
+                <h1 class="ui header-companyname">
+                    Tan Tock Seng Hospital Pte Ltd
                 </h1>
 
                 <div class="ui grid zp-dss-middlemessage mobile hidden" >
                     <div class="ui grid zp-dss-containermiddle" >
-                        <div class="ui form">
-                            <div class="fields" style="padding: 15px 0px;" >
-                                <div class="field">
-                                    <label>Processing Status</label>
-                                    <select >
-                                        <option>CS Team Review</option>
-                                    </select>
+                        <div class="eight column row">
+                            <div class="left aligned six wide column left floated">
+                                Order Overview
+                            </div>
+                            <div class="right floated column">
+                                <button class="ui primary button"> Save </button>
+                            </div>
+                        </div>
+                        <div id="info-order" class="eight column row">
+
+                            <div class="left aligned ten wide column left floated">
+                                <div class="ui grid">
+                                    <div class="four wide column">
+                                        Order No.
+                                    </div>
+                                    <div class="four wide column">
+                                        867279
+                                    </div>
+                                    <div class="four wide column">
+                                        SALE ID
+                                    </div>
+                                    <div class="four wide column">
+                                        30032074
+                                    </div>
                                 </div>
-                                <div class="field">
-                                    <label>Name of Company</label>
-                                    <input type="text" placeholder="Name of Company">
-                                </div>
-                                <div class="field">
-                                    <label>Date Range</label>
-                                    <input type="date" style="width:40%;float: left;" >
-                                    <div style="float:left;padding: 8px 0px 0px 10px;" >TO</div>
-                                    <input type="date" style="width:40%;" >
-                                </div>
-                                <div class="field">
-                                    <label></label>
-                                    <button class="ui primary button" style="margin-top:20px;" >
-                                        SEARCH
-                                    </button>
+                                <div class="ui grid">
+                                    <div class="four wide column">
+                                        EZRX NO.
+                                    </div>
+                                    <div class="four wide column">
+                                        ZPSG-6854
+                                    </div>
+                                    <div class="four wide column">
+                                        SHIPPING ID
+                                    </div>
+                                    <div class="four wide column">
+                                         70042484
+                                    </div>
                                 </div>
                             </div>
+                            <div class=" six wide column">
+                                <div class="ui grid">
+                                    <div class="five wide column">
+                                        INVOICE NO.
+                                    </div>
+                                    <div class="five wide column" style="text-align:right;" >
+                                        65453623
+                                    </div>
+                                </div>
+                                <div class="ui grid">
+                                    <div class="six wide column">
+                                        PO REFERENCE
+                                    </div>
+                                    <div class="five wide column">
+                                        PO232323
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -141,7 +179,7 @@
 
         </div>
 
-        <div class="ui vertical stripe segment">
+        <div id="detail_order" class="ui vertical stripe segment">
             <div class="ui middle aligned stackable grid container">
                 <div class="row">
                     <div class="wide column">
@@ -167,7 +205,7 @@
                                     <td>30332074</td>
                                     <td>70042484</td>
                                     <td>Tan Tock Seng Hospital Pte Ltd</td>
-                                    <td><a href="detail_order.html" ><span class="zp-dss-processing" >NOT SUBMITTED</span></a></td>
+                                    <td><a href="" ><span class="zp-dss-processing" >NOT SUBMITTED</span></a></td>
                                     <td><span class="zp-dss-viewdata" >View</span></td>
                                 </tr>
                                 <tr>
@@ -177,7 +215,7 @@
                                     <td>30332074</td>
                                     <td>70042484</td>
                                     <td>Q&M Dental Centre (Orchard) Pte Ltd</td>
-                                    <td><a href="detail_order.html" ><span class="zp-dss-processing" >NOT SUBMITTED</span></a></td>
+                                    <td><a href="" ><span class="zp-dss-processing" >NOT SUBMITTED</span></a></td>
                                     <td>
                                         <span class="zp-dss-viewdata">View</span>
                                     </td>
@@ -189,7 +227,7 @@
                                     <td>30332074</td>
                                     <td>70042484</td>
                                     <td>Balestier Dispensary Medical & Surgery</td>
-                                    <td><a href="detail_order.html" ><span class="zp-dss-processing" >NOT SUBMITTED</span></a></td>
+                                    <td><a href="" ><span class="zp-dss-processing" >NOT SUBMITTED</span></a></td>
                                     <td>
                                         <span class="zp-dss-viewdata">View</span>
                                     </td>
