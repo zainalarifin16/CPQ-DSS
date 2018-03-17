@@ -183,6 +183,75 @@
     margin-left: 0.5em;
 }
 
+.title-looking-answer{
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.sixteen.wide.column.title-faq{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #003948;
+}
+
+.sixteen.wide.column.content-faq{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #000000;
+}
+
+.page-result-faq{
+    font-family: Raleway;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.82;
+    letter-spacing: 0.7px;
+    text-align: right;
+    color: #000000;
+}
+
+.item-faq{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.sixteen.wide.column a.link-more-faq{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    text-align: right;
+    color: #005d62;
+}
+
+.small.ui.button.search {
+    background-color: #005d62;
+    color: #ffffff;
+}
+
 .masthead h1.ui.header-backtoview a{
     float: left;
     font-family: Raleway;
@@ -212,6 +281,21 @@
     margin-left: 10%;
     margin-top: 0px;
     padding-top: 20px;
+}
+
+.masthead h1.ui.header-faqs {
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20%;
+    margin-top: 0px;
+    padding-top: 60px;
 }
 
 .masthead h1.ui.header-view-order {
@@ -277,6 +361,7 @@
 
 #detail_order{
     padding-top: 1em;
+    min-height: 400px;
 }
 
 .zp-dss-focus{
@@ -395,6 +480,83 @@
     line-height: 1.82;
     letter-spacing: 0.7px;
     color: #003948!important;
+}
+
+.zp-dss-containermiddle .ui.complete.buttons .button,.ui.complete.button{
+    background-color: #729748;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 5px 15px;
+}
+
+h3.ui.header-information{
+    font-family: Raleway;
+    font-size: 21px!important;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+h3.ui.header-sales-rep{
+    font-family: Raleway;
+    font-size: 21px!important;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#shipping_information .row{
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+#detail_order .label{
+    font-family: Raleway;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.82;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #003948;
+}
+
+.instruction .title{
+    font-family: Raleway;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.82;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #003948;
+}
+
+.instruction .content{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #000000;
+}
+
+.instruction .column{
+    padding-top:0px!important;
+    padding-bottom: 0px!important;
 }
 
 .zp-dss-footer{
@@ -588,10 +750,6 @@
     .ui.table:not(.unstackable) thead{
         display: none;
     }
-
-    /* .ui.table:not(.unstackable) tbody td{
-        float: left;
-    } */
 
     .ui.vertical.footer.segment{
         padding-bottom: 0px;
