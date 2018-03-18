@@ -644,6 +644,11 @@ h3.ui.header-sales-rep{
   [class*="or lower hidden"] {
     display: none !important;
   }
+
+  .ui.text.container{
+      background-position-x: -180px!important;
+  }
+  
 }
 
 @media only screen and (min-width: 360px) and (max-width: 700px) {
@@ -777,7 +782,6 @@ h3.ui.header-sales-rep{
     .ui.text.container{
         background-size: 140%!important;
         background-position-y: 10px!important;
-        background-position-x: -180px!important;
     }
 
     .ui.secondary.pointing.menu .item{
