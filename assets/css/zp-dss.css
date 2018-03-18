@@ -717,8 +717,8 @@ h3.ui.header-sales-rep{
 
     .ui.text.container{
         margin: 0px!important;
-        background-position-x: -480px!important;
-        background-position-y: -60px!important;
+        background-position-x: -500px!important;
+        background-position-y: 0px!important;
         background-size: 400%!important;
     }
 
@@ -776,7 +776,8 @@ h3.ui.header-sales-rep{
 
     .ui.text.container{
         background-size: 140%!important;
-        background-position-y: -40px!important;
+        background-position-y: 10px!important;
+        background-position-x: -180px!important;
     }
 
     .ui.secondary.pointing.menu .item{
@@ -808,7 +809,7 @@ h3.ui.header-sales-rep{
     
     .ui.text.container{
         background-size: 100%!important;
-        background-position-y: -70px!important;
+        background-position-y: 10px!important;
     }
     
     .zp-dss-footer{
