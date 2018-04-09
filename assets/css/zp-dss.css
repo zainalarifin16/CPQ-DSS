@@ -393,6 +393,7 @@
     border-radius: 70px;
     position: absolute;
     padding: 7px;
+    left: 0px;
 }
 
 .zp-dss-pending{
@@ -420,6 +421,12 @@
     color: #000000;
 }
 
+.zp-dss-b2b-labeltotal{
+    width: 100%;
+    float: left;
+    margin-left: 10px;
+}
+
 .zp-dss-totalvalue{
     font-family: Raleway;
     font-size: 14px;
@@ -430,6 +437,12 @@
     letter-spacing: 0.3px;
     text-align: left;
     color: #f8b21c;
+}
+
+.zp-dss-b2b-totalvalue{
+    width: 100%;
+    float: left;
+    margin-left: 10px;
 }
 
 .zp-dss-messagealert{
@@ -589,7 +602,7 @@ h3.ui.header-sales-rep{
 }
 
 .ui.vertical.stripe {
-    padding: 0em 0em 5em 0em;
+    padding: 2em 0em 5em 0em;
 }
 
 .ui.vertical.stripe h3 {
@@ -628,6 +641,10 @@ h3.ui.header-sales-rep{
 
 .secondary.pointing.menu .toc.item {
     display: none;
+}
+
+.zp-dss-header{
+    font-weight: normal;
 }
 
 .ui.vertical.footer.segment{
@@ -790,6 +807,10 @@ h3.ui.header-sales-rep{
 
     .zp-dss-middlemessage{
         top: 65%;
+    }
+
+    .zp-dss-b2b-middlemessage{
+        top: 75%;
     }
 
     .zp-dss-containermiddle{
