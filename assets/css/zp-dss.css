@@ -1143,6 +1143,9 @@ h3.ui.header-sales-rep{
     padding-bottom: 15px;
 }
 
+.b2b-mobile-healthcare-bg-container{
+    display: none;
+}
 
 @media only screen and (max-width: 767px) {
   [class*="mobile hidden"],
@@ -1438,6 +1441,22 @@ h3.ui.header-sales-rep{
         text-align: center;
     }
 
+    .b2b-mobile-healthcare-bg-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: #f8f8f8;
+        margin-bottom: -160px;
+    }
+
+    .b2b-mobile-healthcare-bg{
+        max-width: 70%;
+    }
+
+    .ui.b2b-footer{
+        padding-top: 0px;
+    }
 }
 
 
