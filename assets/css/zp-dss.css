@@ -1268,11 +1268,27 @@ h3.ui.header-sales-rep{
     .b2b-healthcare-caption{
         margin-bottom: 40px !important;
     }
+
+    .header-b2b-main-carousel .slick-prev {
+        left: 120px !important;
+        top: 359px !important;
+    }
+
+    .header-b2b-main-carousel .slick-next {
+        left: 200px !important;
+        top: 359px !important;
+    }
+
+    .header-b2b-main-carousel .slick-dots {
+        top: 340px;
+        left: 106px;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 700px) {
     .ui.header-b2b-main-carousel {
         max-width: 90%;
+        margin-bottom: 50px;
     }
 
     .b2b-middlemessage-content{
@@ -1475,21 +1491,70 @@ h3.ui.header-sales-rep{
         max-width: 100px;
         max-height: 50px;
     }
+    
+    .header-b2b-main-carousel .slick-dots {
+        top: 252px;
+    }
 
+    .header-b2b-main-carousel .slick-prev {
+        left: 25px !important;
+        top: 270px !important;
+    }
+
+    .header-b2b-main-carousel .slick-next {
+        left: 80px !important;
+        top: 270px !important;
+    }
+    .header-b2b-main-carousel{
+        margin-left: 7%;
+        max-width: 386px;
+    }
+
+    .zp-dss-b2b-manufacture-carousel .slick-prev {
+        left: 325px !important;
+        top: 374px !important;
+    }
+
+    .zp-dss-b2b-manufacture-carousel .slick-next {
+        left: 390px !important;
+        top: 374px !important;
+    }
+
+    .zp-dss-b2b-trending-carousel .slick-prev {
+        left: 325px !important;
+        top: 486px !important;
+    }
+
+    .zp-dss-b2b-trending-carousel .slick-next {
+        left: 390px !important;
+        top: 486px !important;
+    }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     .header-b2b-main-carousel {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         margin-left: 9%;
-        max-width: 360px;
+        max-width: 450px;
     }
-}
-@media only screen and (min-width: 1024px) {
-    
+
+    .header-b2b-main-carousel .slick-dots {
+        top: 252px;
+    }
+
+    .header-b2b-main-carousel .slick-prev {
+        left: 25px !important;
+        top: 270px !important;
+    }
+
+    .header-b2b-main-carousel .slick-next {
+        left: 80px !important;
+        top: 270px !important;
+    }
+
     .ui.text.container.zp-dss-b2b-header-background{
         background: url(../images/hero-img-tablet.jpg) !important;
     }
@@ -1505,6 +1570,26 @@ h3.ui.header-sales-rep{
     .b2b-healthcare-bg {
         max-width: 220px;
     }
+
+    .zp-dss-b2b-manufacture-carousel .slick-prev {
+        left: 430px !important;
+        top: 374px !important;
+    }
+
+    .zp-dss-b2b-manufacture-carousel .slick-next {
+        left: 495px !important;
+        top: 374px !important;
+    }
+
+    .zp-dss-b2b-trending-carousel .slick-prev {
+        left: 430px !important;
+        top: 411px !important;
+    }
+
+    .zp-dss-b2b-trending-carousel .slick-next {
+        left: 495px !important;
+        top: 411px !important;
+    }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -1512,7 +1597,20 @@ h3.ui.header-sales-rep{
         font-size: 30px;
     }
 
-    /* custom carousel for heading */
+}
+
+@media only screen and (max-width: 1279px) {
+    .zp-dss-b2b-middlemessage{
+        top: 77.53%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .header-b2b-main-carousel {
+        margin-left: 230px;
+        max-width: 400px;
+    }
+
     .header-b2b-main-carousel .slick-dots {
         top: 252px;
     }
@@ -1526,18 +1624,9 @@ h3.ui.header-sales-rep{
         left: 80px !important;
         top: 270px !important;
     }
-}
-
-@media only screen and (max-width: 1279px) {
-    .zp-dss-b2b-middlemessage{
-        top: 77.53%;
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-    
     .ui.text.container.zp-dss-b2b-header-background{
         background: url(../images/hero-img-desktop-hd.jpg) !important;
+        background-position-x: -160px !important;
     }
     
     .zp-dss-footer{
@@ -1557,16 +1646,39 @@ h3.ui.header-sales-rep{
         max-width: 300px;
     }
 
-    .header-b2b-main-carousel {
-        margin-left: 280px;
-        /* max-width: 476px !important; */
+    .zp-dss-b2b-manufacture-carousel .slick-prev {
+        left: 533px !important;
+        top: 374px !important;
+    }
+
+    .zp-dss-b2b-manufacture-carousel .slick-next {
+        left: 588px !important;
+        top: 374px !important;
+    }
+
+    .zp-dss-b2b-trending-carousel .slick-prev {
+        left: 533px !important;
+        top: 377px !important;
+    }
+
+    .zp-dss-b2b-trending-carousel .slick-next {
+        left: 588px !important;
+        top: 377px !important;
     }
 }
 
 @media only screen and (min-width: 1440px) {
+    .header-b2b-main-carousel {
+        margin-left: 250px;
+    }
     .ui.text.container{
         background-size: 100%!important;
     }
+    
+    .ui.text.container.zp-dss-b2b-header-background{
+        background-position-x: 0px !important;
+    }
+
     .zp-dss-imagegsk{
         right: 20%;
     }
@@ -1592,9 +1704,31 @@ h3.ui.header-sales-rep{
         padding-right: 150px;
     }
 
+    .header-b2b-main-carousel {
+        max-width: 476px !important;
+    }
+
+    .header-b2b-main-carousel .slick-prev {
+        left: 25px !important;
+        top: 289px !important;
+    }
+
+    .header-b2b-main-carousel .slick-next {
+        left: 80px !important;
+        top: 289px !important;
+    }
+
+    .header-b2b-main-carousel .slick-dots {
+        top: 271px;
+    }
+
 }
 
 @media only screen and (min-width: 1900px) {
+
+    .ui.text.container.zp-dss-b2b-header-background{
+        background-size: 100%!important;
+    }
 
     .ui.text.container{
         width: 100%;
@@ -1617,9 +1751,19 @@ h3.ui.header-sales-rep{
         padding-right: 400px;
     }
 
-    .header-b2b-main-carousel{
-        margin-left: 535px;
+    .header-b2b-main-carousel {
+        margin-left: 460px;
         min-width: 600px;
+    }
+
+    .header-b2b-main-carousel .slick-prev {
+        left: 25px !important;
+        top: 289px !important;
+    }
+
+    .header-b2b-main-carousel .slick-next {
+        left: 80px !important;
+        top: 289px !important;
     }
 }
 

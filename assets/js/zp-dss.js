@@ -60,8 +60,21 @@ $(document)
           autoplay: true,
           infinite: true,
           dots: true,
-          prevArrow: '<img src="assets/images/chevron-left.svg" class="slick-prev"/>',
-          nextArrow: '<img src="assets/images/chevron-right.svg" class="slick-next"/>'
+          prevArrow:
+            '<img src="assets/images/chevron-left.svg" class="slick-prev"/>',
+          nextArrow:
+            '<img src="assets/images/chevron-right.svg" class="slick-next"/>',
+          responsive: [
+            {
+              breakpoint: 360,
+              settings: {
+                arrows: false,
+                autoplay: true,
+                infinite: true,
+                dots: false
+              }
+            }
+          ]
         });
 
         $(".zp-dss-b2b-manufacture-carousel").slick({
