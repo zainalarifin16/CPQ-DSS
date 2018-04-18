@@ -1297,7 +1297,7 @@ h3.ui.header-sales-rep{
         /* width: 250px; */
     }
 
-    .ui.text.container{
+    .ui.text.container.zp-dss-b2b-header-background{
         margin: 0px!important;
         background: url(../images/cetaphil-iphone.jpg) !important;
         background-position-x: 0px !important;
@@ -1453,7 +1453,7 @@ h3.ui.header-sales-rep{
 
 @media only screen and (min-width: 768px) {
 
-    .ui.text.container{
+    .ui.text.container.zp-dss-b2b-header-background{
         background: url(../images/hero-img-tablet.jpg) !important;
         background-position-x: -160px !important;
     }
@@ -1490,7 +1490,7 @@ h3.ui.header-sales-rep{
 }
 @media only screen and (min-width: 1024px) {
     
-    .ui.text.container{
+    .ui.text.container.zp-dss-b2b-header-background{
         background: url(../images/hero-img-tablet.jpg) !important;
     }
     
@@ -1536,7 +1536,7 @@ h3.ui.header-sales-rep{
 
 @media only screen and (min-width: 1280px) {
     
-    .ui.text.container{
+    .ui.text.container.zp-dss-b2b-header-background{
         background: url(../images/hero-img-desktop-hd.jpg) !important;
     }
     
