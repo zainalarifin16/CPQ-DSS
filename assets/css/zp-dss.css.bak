@@ -298,405 +298,6 @@
     padding-top: 60px;
 }
 
-.header-b2b-main-carousel{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 17%;
-    max-width: 476px;
-}
-
-.ui.header-b2b-carousel-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.masthead h1.header-b2b-title{
-    font-family: Raleway;
-    margin-top: 0px;
-    padding-top: 71px;
-    font-size: 38px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.6px;
-    text-align: left;
-    color: #005a91;
-}
-
-.header-b2b-carousel-image{
-    width: 90px;
-    height: 90px;
-}
-
-/* custom carousel for heading */
-.header-b2b-main-carousel .slick-dots {
-    position: absolute;
-    bottom: -25px;
-    display: block;
-    padding: 0px;
-    width: auto !important;
-    margin-left: 35px !important;
-    list-style: none;
-    text-align: center;
-    top: 272px;
-}
-
-.slick-dots li {
-    margin: 0 -3px !important;
-}
-
-.header-b2b-main-carousel .slick-prev {
-    left: 25px !important;
-    top: 290px !important;
-    z-index: 1;
-    width: 6px !important;
-    height: 11px !important;
-}
-
-.header-b2b-main-carousel .slick-next {
-    left: 80px !important;
-    top: 290px !important;
-    z-index: 1;
-    width: 6px !important;
-    height: 11px !important;
-}
-
-.video { position: relative; }
-
-.video a {
-    position: absolute;
-    display: block;
-    background: url(http://www.slatecube.com/images/play-btn.png);
-    height: 24px;
-    width: 24px;
-    top: 33px;
-    left: 33px;
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-}
-
-h3.zp-dss-b2b-manufacture{
-    font-family: Raleway !important;
-    font-size: 42px !important;
-    font-weight: 300 !important;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33 !important;
-    letter-spacing: normal;
-    text-align: center !important;
-    color: #000000 !important;
-    margin-bottom: 38px !important;
-    margin-top: -10px !important;
-}
-
-.zp-dss-b2b-manufacture-carousel{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.b2b-trending-product{
-    background: #005d62 !important;
-    padding-bottom: 124px !important;
-}
-
-h3.zp-dss-b2b-trending-title{
-    font-family: Raleway !important;
-    font-size: 42px !important;
-    font-weight: 300 !important;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33 !important;
-    letter-spacing: normal;
-    text-align: center !important;
-    color: #ffffff !important;
-    margin-bottom: 13px !important;
-    margin-top: 57px !important;
-}
-
-.b2b-trending-image-label{
-    font-family: Raleway;
-    font-size: 11px !important;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.82;
-    letter-spacing: 0.7px;
-    text-align: left;
-    color: #c3d500;
-}
-
-.b2b-trending-image-title{
-    font-family: Raleway;
-    font-size: 14px !important;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.2px;
-    text-align: left;
-    color: #ffffff;
-}
-
-.b2b-trending-image-caption{
-    font-family: Raleway;
-    font-size: 12px !important;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: 0.3px;
-    text-align: left;
-    color: #ffffff;
-}
-
-.b2b-trending-image-caption > .read-more{
-    font-family: Raleway;
-    font-size: 12px !important;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: 0.3px;
-    text-align: right;
-    color: #c3d500;
-}
-
-.b2b-trending-image-caption > .read-more > img {
-    display: inline !important;
-}
-
-.b2b-trending-image-caption img{
-    width: 10px;
-    height: 8px;
-}
-
-.zp-dss-b2b-trending-caption{
-    font-family: Raleway;
-    font-size: 14px !important;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.29;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #ffffff !important;
-    margin-bottom: 35px !important;
-}
-
-.zp-dss-b2b-trending-carousel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.zp-dss-b2b-trending-carousel .slick-dots li button:before, .zp-dss-b2b-trending-carousel .slick-dots li.slick-active button:before{
-    color: #ffffff;
-}
-
-.zp-dss-b2b-trending-carousel-content{
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: center;
-}
-
-.zp-dss-b2b-manufacture-image{
-    text-align: center;
-    height: 140px;
-    background-color: #ffffff;
-    border: solid 1px rgb(0, 93, 98, .5);
-    display: flex !important;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.zp-dss-b2b-manufacture-image > img{
-    max-width: 160px;
-    max-height: 50px;
-}
-
-.header-b2b-carousel-caption{
-    font-family: Raleway;
-    margin-left: 18px;
-    font-size: 12px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: 0.3px;
-    text-align: left;
-    color: #000000;
-}
-
-/* custom slick on manufacture carousel */
-
-.zp-dss-b2b-manufacture-carousel-content{
-    margin-bottom: 30px;
-}
-
-.zp-dss-b2b-manufacture-carousel .slick-prev {
-    left: 530px !important;
-    top: 376px !important;
-    z-index: 1;
-    width: 6px !important;
-    height: 11px !important;
-}
-
-.slick-slide {
-    margin: 10px;
-}
-
-.zp-dss-b2b-manufacture-carousel .slick-next {
-    left: 590px !important;
-    top: 376px !important;
-    z-index: 1;
-    width: 6px !important;
-    height: 11px !important;
-}
-
-.b2b-trending-carousel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-right: 1px !important;
-}
-
-.btb-trending-carousel-image{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: #ffffff;
-    height: 187px;
-    margin-bottom: 25px;
-}
-
-.btb-trending-carousel-image > img{
-    width: 100%;
-    border: 0;
-}
-
-.b2b-healthcare {
-    background: #f8f8f8 !important;
-    padding-top: 70px !important;
-}
-
-.b2b-healthcare-head {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.b2b-healthcare-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 700px;
-}
-.b2b-healthcare-container > img{
-    max-height: 337px;
-    margin-bottom: 47px;
-}
-
-.b2b-healthcare-label {
-    font-family: "Raleway";
-    font-size: 14px !important;
-    font-weight: 800;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 0px;
-}
-
-.b2b-healthcare-title {
-    font-family: Raleway;
-    font-size: 42px !important;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 13px;
-}
-
-.b2b-healthcare-caption {
-    font-family: Raleway;
-    font-size: 14px !important;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 38px;
-}
-
-.b2b-healthcare-bg {
-    max-height: 403px;
-}
-
-.b2b-healthcare-button {
-    margin-bottom: 10px;
-    font-family: Raleway;
-    font-size: 13px !important;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.54;
-    letter-spacing: 1.1px;
-    text-align: left;
-    color: #ffffff;
-    background: #005d62;
-
-    width: 300px;
-    height: 50px;
-    border-radius: 3px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.b2b-healthcare-button:hover{
-    color: #ffffff;
-}
-
-.b2b-healthcare-link {
-    font-family: Raleway;
-    font-size: 12px !important;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #005d62;
-}
-
-.b2b-healthcare-link > img {
-    width: 10px;
-    height: 8px;
-}
-
 .masthead h1.ui.header-view-order {
     font-family: Raleway;
     font-size: 42px;
@@ -707,7 +308,7 @@ h3.zp-dss-b2b-trending-title{
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    margin-left:10%;
+    margin-left: 10%;
     margin-top: 0px;
     padding-top: 50px;
 }
@@ -826,10 +427,6 @@ h3.zp-dss-b2b-trending-title{
     margin-left: 10px;
 }
 
-.zp-dss-b2b-header {
-    height: 452px;
-}
-
 .zp-dss-totalvalue{
     font-family: Raleway;
     font-size: 14px;
@@ -881,15 +478,9 @@ h3.zp-dss-b2b-trending-title{
 
 .zp-dss-containermiddle{
     background-color:#f8f8f8;
-    width: 1100px;
+    width:1100px;
     margin: 0px auto!important;
     padding-bottom: 25px!important;
-}
-
-.zp-dss-b2b-containermiddle{
-    text-align: left;
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
 }
 
 .zp-dss-containermiddle label{
@@ -989,10 +580,6 @@ h3.ui.header-sales-rep{
     max-height: 60px;
 }
 
-.b2b-footer {
-    background: #f8f8f8 !important;
-}
-
 .zp-dss-copyright{
     font-family: Raleway;
     font-size: 11px;
@@ -1078,29 +665,7 @@ h3.ui.header-sales-rep{
   .ui.text.container{
       background-position-x: -180px!important;
   }
-
-  .zp-dss-b2b-manufacture-image{
-      height: 94px;
-  }
-
-  .zp-dss-b2b-manufacture-image > img{
-      max-width: 100px;
-      max-height: 40px;
-  }
   
-  .b2b-healthcare-container > img , .b2b-healthcare-container{
-      max-width: 90%;
-  }
-  .b2b-healthcare-bg {
-      display: none;
-  }
-
-  .b2b-healthcare-head {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 700px) {
@@ -1244,13 +809,12 @@ h3.ui.header-sales-rep{
         top: 65%;
     }
 
-    .zp-dss-containermiddle{
-        width: 700px;
+    .zp-dss-b2b-middlemessage{
+        top: 75%;
     }
 
-    .zp-dss-b2b-manufacture-image > img{
-        max-width: 100px;
-        max-height: 50px;
+    .zp-dss-containermiddle{
+        width: 700px;
     }
 
 }
@@ -1264,37 +828,6 @@ h3.ui.header-sales-rep{
     .zp-dss-containermiddle{
         width: 900px;
     }
-
-    .b2b-healthcare-container > img{
-        max-height: 300px;
-    }
-
-    .b2b-healthcare-bg {
-        max-width: 220px;
-    }
-    
-}
-
-@media only screen and (max-width: 1280px) {
-    .masthead h1.header-b2b-title{
-        font-size: 30px;
-    }
-
-    /* custom carousel for heading */
-    .header-b2b-main-carousel .slick-dots {
-        top: 252px;
-    }
-
-    .header-b2b-main-carousel .slick-prev {
-        left: 25px !important;
-        top: 270px !important;
-    }
-
-    .header-b2b-main-carousel .slick-next {
-        left: 80px !important;
-        top: 270px !important;
-    }
-
 }
 
 @media only screen and (min-width: 1280px) {
@@ -1308,32 +841,12 @@ h3.ui.header-sales-rep{
         padding-left: 70px;
         padding-right: 70px;
     }
-
-    .zp-dss-b2b-middlemessage{
-        top: 70.43%;
-    }
-
-    .b2b-healthcare-container > img{
-        max-height: 300px;
-    }
-
-    .b2b-healthcare-bg {
-        max-width: 250px;
-    }
 }
 
 @media only screen and (min-width: 1440px) {
 
     .zp-dss-imagegsk{
         right: 20%;
-    }
-
-    .zp-dss-b2b-middlemessage{
-        top: 77.71%;
-    }
-
-    .zp-dss-b2b-containermiddle{
-        width: 1099px;
     }
 
     .masthead h1.ui.header{
@@ -1372,10 +885,6 @@ h3.ui.header-sales-rep{
     .zp-dss-footer{
         padding-left: 400px;
         padding-right: 400px;
-    }
-
-    .header-b2b-main-carousel{
-        margin-left: 480px;
     }
 }
 
