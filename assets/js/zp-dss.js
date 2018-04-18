@@ -103,6 +103,27 @@ $(document)
           ]
         });
 
+        if( $( window ).width() <= 760 ){
+            $(".b2b-middlemessage-carousel").slick({
+            speed: 500,
+            arrows: false,
+            autoplay: false,
+            infinite: true,
+            dots: true,
+            responsive: [
+                {
+                breakpoint: 780,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+                }
+            ]
+            });
+        }
+        
         $(".zp-dss-b2b-trending-carousel").slick({
             speed: 500,
             arrows: true,

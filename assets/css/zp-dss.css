@@ -1172,6 +1172,35 @@ h3.ui.header-sales-rep{
 }
 
 @media only screen and (min-width: 360px) and (max-width: 700px) {
+    .ui.text.container{
+        height: 640px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-b2b-main-carousel {
+        margin-left: 0px !important;
+        padding-top: 75px;
+    }
+    
+    .header-b2b-title{
+        text-align: center !important;
+        /* width: 250px; */
+    }
+
+    .ui.text.container{
+        margin: 0px!important;
+        background: url(../images/cetaphil-iphone.jpg) !important;
+        background-position-x: 0px !important;
+        background-position-y: 0px!important;
+        background-size: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
 
     .ui.visible.uncover.sidebar{
         background: #003948;
@@ -1240,13 +1269,6 @@ h3.ui.header-sales-rep{
         font-size: 1.5em;
     }
 
-    .ui.text.container{
-        margin: 0px!important;
-        background-position-x: -500px!important;
-        background-position-y: 0px!important;
-        background-size: 400%!important;
-    }
-
     .zp-dss-imagegsk{
         right: 0;
         left: 0;
@@ -1297,16 +1319,92 @@ h3.ui.header-sales-rep{
 }
 
 
+@media only screen and (max-width: 768px) {
+    .b2b-healthcare-container > img {
+        max-height: 220px;
+    }
+
+    .b2b-healthcare-bg {
+        max-height: 205px;
+    }
+
+    .b2b-healthcare-container {
+        max-width: 345px;
+    }
+
+    .zp-dss-b2b-containermiddle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        height: 270px;
+        margin-top: 28px !important;
+    }
+
+    .b2b-middlemessage-carousel-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 1;
+    }
+
+    h3.zp-dss-b2b-manufacture{
+        margin-top: 130px !important;
+    }
+
+    .b2b-containermiddle-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zp-dss-messagealert{
+        text-align: center;
+    }
+
+    .b2b-labeltotal, .zp-dss-b2b-labeltotal, .zp-dss-b2b-totalvalue {
+        text-align: center;
+    }
+
+    .slick-dots{
+        z-index: 1;
+    }
+
+    .b2b-middlemessage-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .zp-dss-messagealert {
+        max-width: 200px;
+    }
+
+    .b2b-middlemessage-carousel{
+        max-width: 100%;
+    }
+
+    .zp-dss-readmore img{
+        display: inline !important;
+    }
+}
 @media only screen and (min-width: 768px) {
 
     .ui.text.container{
-        background-size: 140%!important;
-        background-position-y: 10px!important;
+        background: url(../images/hero-img-tablet.jpg) !important;
+        background-position-x: -160px !important;
     }
 
     .ui.secondary.pointing.menu .item{
         padding: 12px;
     }
+
 
     .zp-dss-middlemessage{
         top: 65%;
@@ -1323,10 +1421,20 @@ h3.ui.header-sales-rep{
 
 }
 
+@media only screen and (max-width: 1024px) {
+    .header-b2b-main-carousel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 9%;
+        max-width: 360px;
+    }
+}
 @media only screen and (min-width: 1024px) {
     
     .ui.text.container{
-        background-size: 100%!important;
+        background: url(../images/hero-img-tablet.jpg) !important;
     }
     
     .zp-dss-containermiddle{
@@ -1340,7 +1448,6 @@ h3.ui.header-sales-rep{
     .b2b-healthcare-bg {
         max-width: 220px;
     }
-    
 }
 
 @media only screen and (max-width: 1280px) {
@@ -1366,15 +1473,14 @@ h3.ui.header-sales-rep{
 
 @media only screen and (max-width: 1279px) {
     .zp-dss-b2b-middlemessage{
-        top: 70.43%;
+        top: 77.53%;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     
     .ui.text.container{
-        background-size: 100%!important;
-        background-position-y: 10px!important;
+        background: url(../images/hero-img-desktop-hd.jpg) !important;
     }
     
     .zp-dss-footer{
@@ -1391,12 +1497,19 @@ h3.ui.header-sales-rep{
     }
 
     .b2b-healthcare-bg {
-        max-width: 250px;
+        max-width: 300px;
+    }
+
+    .header-b2b-main-carousel {
+        margin-left: 280px;
+        /* max-width: 476px !important; */
     }
 }
 
 @media only screen and (min-width: 1440px) {
-
+    .ui.text.container{
+        background-size: 100%!important;
+    }
     .zp-dss-imagegsk{
         right: 20%;
     }
@@ -1448,7 +1561,8 @@ h3.ui.header-sales-rep{
     }
 
     .header-b2b-main-carousel{
-        margin-left: 480px;
+        margin-left: 535px;
+        min-width: 600px;
     }
 }
 
