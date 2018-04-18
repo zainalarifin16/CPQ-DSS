@@ -1143,37 +1143,120 @@ h3.ui.header-sales-rep{
     display: none !important;
   }
 
-  .ui.text.container{
-      background-position-x: -180px!important;
-  }
+    .ui.text.container{
+        background-position-x: -180px!important;
+    }
 
-  .zp-dss-b2b-manufacture-image{
-      height: 94px;
-  }
+    .zp-dss-b2b-manufacture-image{
+        height: 94px;
+    }
 
-  .zp-dss-b2b-manufacture-image > img{
-      max-width: 100px;
-      max-height: 40px;
-  }
-  
-  .b2b-healthcare-container > img , .b2b-healthcare-container{
-      max-width: 90%;
-  }
-  .b2b-healthcare-bg {
-      display: none;
-  }
+    .zp-dss-b2b-manufacture-image > img{
+        max-width: 100px;
+        max-height: 40px;
+    }
+    
+    .b2b-healthcare-container > img , .b2b-healthcare-container{
+        max-width: 90%;
+    }
+    .b2b-healthcare-bg {
+        display: none;
+    }
 
-  .b2b-healthcare-head {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-  }
+    .b2b-healthcare-head {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zp-dss-b2b-containermiddle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        height: 270px;
+        margin-top: 28px !important;
+    }
+
+    .b2b-middlemessage-carousel-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 1;
+    }
+
+    h3.zp-dss-b2b-manufacture{
+        margin-top: 130px !important;
+    }
+
+    .b2b-containermiddle-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zp-dss-messagealert{
+        text-align: center;
+    }
+
+    .b2b-labeltotal, .zp-dss-b2b-labeltotal, .zp-dss-b2b-totalvalue {
+        text-align: center;
+    }
+
+    .slick-dots{
+        z-index: 1;
+    }
+
+    .b2b-middlemessage-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .zp-dss-messagealert {
+        max-width: 200px;
+    }
+
+    .b2b-middlemessage-carousel{
+        max-width: 100%;
+    }
+
+    .zp-dss-readmore img{
+        display: inline !important;
+    }
+
+    .b2b-healthcare-label, .b2b-healthcare-title, .b2b-healthcare-caption{
+        max-width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .b2b-healthcare-title, h3.zp-dss-b2b-trending-title, h3.zp-dss-b2b-manufacture{
+        font-size: 36px !important;
+    }
+
+    .b2b-trending-product{
+        padding-bottom: 60px !important;
+    }
+
+    .b2b-healthcare{
+        padding-top: 40px !important;
+    }
+
+    .b2b-healthcare-caption{
+        margin-bottom: 40px !important;
+    }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 700px) {
     .ui.text.container{
-        height: 640px;
+        height: 620px;
         margin: 0px;
         padding: 0px;
         display: flex;
@@ -1332,68 +1415,19 @@ h3.ui.header-sales-rep{
         max-width: 345px;
     }
 
-    .zp-dss-b2b-containermiddle{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 80%;
-        height: 270px;
-        margin-top: 28px !important;
-    }
-
-    .b2b-middlemessage-carousel-content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .zp-dss-b2b-trending-caption, .b2b-trending-image-label, .b2b-trending-image-title, .b2b-trending-image-caption{
+        max-width: 90%;
+        margin: 0px auto;
         text-align: center;
-        z-index: 1;
-    }
-
-    h3.zp-dss-b2b-manufacture{
-        margin-top: 130px !important;
-    }
-
-    .b2b-containermiddle-title{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .zp-dss-messagealert{
-        text-align: center;
-    }
-
-    .b2b-labeltotal, .zp-dss-b2b-labeltotal, .zp-dss-b2b-totalvalue {
-        text-align: center;
-    }
-
-    .slick-dots{
-        z-index: 1;
-    }
-
-    .b2b-middlemessage-icon {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
         margin-bottom: 10px;
+        margin-top: 10px;
     }
 
-    .zp-dss-messagealert {
-        max-width: 200px;
-    }
-
-    .b2b-middlemessage-carousel{
-        max-width: 100%;
-    }
-
-    .zp-dss-readmore img{
-        display: inline !important;
+    .btb-trending-carousel-image{
+        margin-bottom: 50px;
     }
 }
+
 @media only screen and (min-width: 768px) {
 
     .ui.text.container{

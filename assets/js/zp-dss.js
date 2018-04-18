@@ -103,7 +103,7 @@ $(document)
           ]
         });
 
-        if( $( window ).width() <= 760 ){
+        if( $( window ).width() < 760 ){
             $(".b2b-middlemessage-carousel").slick({
             speed: 500,
             arrows: false,
