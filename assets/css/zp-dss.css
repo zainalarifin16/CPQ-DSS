@@ -719,9 +719,9 @@ h3.zp-dss-b2b-trending-title{
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    margin-left:10%;
+    margin-left: 20%;
     margin-top: 0px;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .masthead h1.ui.header {
@@ -1163,7 +1163,11 @@ h3.ui.header-sales-rep{
         z-index: 1;
     }
     .ui.text.container{
+        height: 300px !important;
         background-position-x: -180px!important;
+        background-size: 634%!important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
 
     .zp-dss-b2b-manufacture-image{
@@ -1317,6 +1321,7 @@ h3.ui.header-sales-rep{
     }
 
     .ui.text.container.zp-dss-b2b-header-background{
+        height: 620px !important;
         margin: 0px!important;
         background: url(../images/cetaphil-iphone.jpg) !important;
         background-position-x: 0px !important;
@@ -1548,6 +1553,11 @@ h3.ui.header-sales-rep{
         left: 390px !important;
         top: 486px !important;
     }
+
+    .ui.text.container {
+        background-size: 235%!important;
+        background-position-x: -510px !important;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1608,6 +1618,11 @@ h3.ui.header-sales-rep{
     .zp-dss-b2b-trending-carousel .slick-next {
         left: 495px !important;
         top: 411px !important;
+    }
+
+    .ui.text.container {
+        background-size: 175%!important;
+        background-position-x: -380px !important;
     }
 }
 
@@ -1684,6 +1699,10 @@ h3.ui.header-sales-rep{
         left: 588px !important;
         top: 377px !important;
     }
+    .ui.text.container {
+        background-size: 140%!important;
+        background-position-x: -247px !important;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -1691,7 +1710,8 @@ h3.ui.header-sales-rep{
         margin-left: 250px;
     }
     .ui.text.container{
-        background-size: 100%!important;
+        background-size: 123%!important;
+        background-position-x: -155px !important;
     }
     
     .ui.text.container.zp-dss-b2b-header-background{
@@ -1751,6 +1771,8 @@ h3.ui.header-sales-rep{
 
     .ui.text.container{
         width: 100%;
+        background-size: 110%!important;
+        background-position-x: -110px !important;
     }
 
     .zp-dss-imagegsk{
