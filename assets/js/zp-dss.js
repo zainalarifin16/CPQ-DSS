@@ -75,20 +75,70 @@ $(document)
           prevArrow:
             '<img src="assets/images/chevron-left.svg" class="slick-prev"/>',
           nextArrow:
-            '<img src="assets/images/chevron-right.svg" class="slick-next"/>'
+            '<img src="assets/images/chevron-right.svg" class="slick-next"/>',
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            }
+          ]
         });
 
         $(".zp-dss-b2b-trending-carousel").slick({
-          speed: 500,
-          arrows: true,
-          autoplay: false,
-          infinite: true,
-          dots: true,
-          slidesToShow: 4,
-          slidesToScroll: 4,
-          prevArrow:
-            '<img src="assets/images/chevron-white-left.svg" class="slick-prev" style="left: 530px;top: 378px; z-index: 1;width: 6px !important; height: 11px !important;"/>',
-          nextArrow:
-            '<img src="assets/images/chevron-white-right.svg" class="slick-next" style="left: 590px;top: 378px; z-index: 1;width: 6px !important; height: 11px !important;"/>'
+            speed: 500,
+            arrows: true,
+            autoplay: false,
+            infinite: true,
+            dots: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            prevArrow:
+                '<img src="assets/images/chevron-white-left.svg" class="slick-prev" style="left: 530px;top: 378px; z-index: 1;width: 6px !important; height: 11px !important;"/>',
+            nextArrow:
+                '<img src="assets/images/chevron-white-right.svg" class="slick-next" style="left: 590px;top: 378px; z-index: 1;width: 6px !important; height: 11px !important;"/>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
     });
